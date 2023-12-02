@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import FilmsList from 'pages/FilmsList/FilmsList';
+import FilmsList from 'components/FilmsList/FilmsList';
 import Form from 'components/Form/Form';
 import { fetchSearchByKeyword } from 'Servises/getMovies';
 import { useSearchParams } from 'react-router-dom';
